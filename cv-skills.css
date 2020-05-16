@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+h2 {
+    font-size: 22pt;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+h4 {
+    font-size: 14pt;
+}
+
+h3, h4, p {
+    margin: 4px;
+}
+
+p {
+    padding-left: 2px;
+    text-align: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    background-color: black;
+    border-width: 0;
+    height: 3px;
+}
+
+/* id's and classes */
+#left {
+    float: left;
+    width: 25%;
+}
+
+#right {
+    float: right;
+    width: 70%;
+}
+
+aside, section {
+    padding: 2px;
+}
+
+/* Main information */
+.main-content {
+    padding: 6px;
+    background-color: darkmagenta;
+}
+
+.main-title {
+    background-color: chartreuse;
+}
+
+.subsection-box>h3 {
+    height: 48px;
+    padding-top: 2px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.subsection-box>div {
+    clear: both;
+}
+
+.subsection-icon {
+    height: 48px;
+    width: 48px;
+    margin: 2px 4px;
+    float: left;
+}
+
+.experience-box {
+    background-color: chocolate;
+}
+
+.job-company, .job-title, .school-name, .school-title {
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    padding-left: 6px;
+}
+
+.job-company, .school-name {
+    font-weight: bold;
+    width: 260px;
+}
+
+.job-title, .school-title {
+    font-size: 13pt;
+    text-transform: uppercase;
+}
+
+.job-text, .school-text {
+    font-size: 10pt;
+    text-align: justify;
+    clear: both;
+}
+
+.education-box {
+    background-color: coral;
+}
+
+.courses-certifications-box {
+    background-color: cyan;
+}
+
+/* Sidebar sections */
+.sidebar-content {
+    background-color: darkblue;
+    padding: 6px;
+}
+
+.main-photo {
+    background-color: aquamarine;
+    width: 164px;
+    height: 164px;
+    margin: 18px auto;
+    border-radius: 50%;
+}
+
+.contact-box, .skills-box, .social-box {
+    padding-left: 12px;
+    padding-top: 4px;
+    padding-bottom: 2em;
+}
+
+.contact-box {
+    background-color: darkgreen;
+}
+
+.contact-item {
+    font-size: 10pt;
+    overflow-wrap: break-all;
+    clear: both;
+}
+
+.contact-icon {
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 10px;
+}
+
+.skills-box{
+    background-color: cornflowerblue;
+}
+
+.skill-item {
+    margin-top: 10px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.skill-bar, .skill-bar::before, .skill-bar::after {
+    position: absolute;
+    height: 10px;
+}
+
+.beginner-bar, .normal-bar, .advanced-bar, .expert-bar {
+    margin-left: 8px;
+}
+
+.beginner-bar::before, .normal-bar::before, .advanced-bar::before, .expert-bar::before {
+    content: "";
+    background-color: white;
+}
+
+.beginner-bar::after, .normal-bar::after, .advanced-bar::after, .expert-bar::after {
+    content: "";
+    background-color: gray;
+}
+
+.beginner-bar::before {
+    width: 50px;
+}
+
+.beginner-bar::after {
+    width: 150px;
+    left: 50px;
+}
+
+.normal-bar::before {
+    width: 100px;
+}
+
+.normal-bar::after {
+    width: 100px;
+    left: 100px;
+}
+
+.advanced-bar::before {
+    width: 150px;
+}
+
+.advanced-bar::after {
+    width: 50px;
+    left: 150px;
+}
+
+.expert-bar::before {
+    width: 200px;
+}
+
+.expert-bar::after {
+    width: 0;
+}
+
+.social-box {
+    background-color: brown;
+}
+
+.social-item {
+    font-size: 10pt;
+}
+
+.social-item>img {
+    float: left;
+    margin-left: 6px;
+    height: 24px;
+}
+
+.social-item>h4 {
+    display: table-cell;
+    height: 24px;
+    vertical-align: bottom;
+}
+
+.social-item>p {
+    clear: both;
+}
