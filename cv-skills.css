@@ -27,6 +27,7 @@ h3, h4, p {
 }
 
 p {
+    font-size: 10pt;
     padding-left: 2px;
     text-align: left;
 }
@@ -70,6 +71,10 @@ aside, section {
 /*.main-title {
     background-color: chartreuse;
 }*/
+
+.subsection-box, .subsection-box>div {
+    margin-top: 20px;
+}
 
 .subsection-box>div {
     clear: both;
@@ -125,6 +130,19 @@ aside, section {
     background-color: cyan;
 }*/
 
+.courses-certifications-box ul {
+    padding: 6px;
+}
+
+.courses-certifications-box li {
+    font-size: 12pt;
+    margin: 6px;
+    padding: 6px;
+    width: 45%;
+    position: relative;
+    display: inline-block;
+}
+
 /* Sidebar sections */
 .sidebar-content {
     background-color: #fd6500;
@@ -150,19 +168,27 @@ aside, section {
     background-color: darkgreen;
 }*/
 
-.contact-icon {
-    /*background-color: white;*/
-    width: 24px;
-    height: 24px;
-    float: left;
-    margin: 10px;
+.contact-item, .social-item {
+    margin: 1em 0;
 }
 
-.contact-item {
-    font-size: 10pt;
+.contact-item>img, .social-item>img {
+    float: left;
+    margin-left: 6px;
+    height: 24px;
+    width: 24px;
+}
+
+.contact-item>h4, .social-item>h4 {
+    display: table-cell;
+    padding-left: 4px;
+    height: 24px;
+    vertical-align: bottom;
+}
+
+.contact-item>p, .social-item>p {
     overflow-wrap: break-word;
     clear: both;
-    margin: 10px 0;
 }
 
 /*.skills-box{
@@ -232,24 +258,3 @@ aside, section {
 /*.social-box {
     background-color: brown;
 }*/
-
-.social-item {
-    font-size: 10pt;
-}
-
-.social-item>img {
-    float: left;
-    margin-left: 6px;
-    height: 24px;
-}
-
-.social-item>h4 {
-    display: table-cell;
-    height: 24px;
-    padding-left: 4px;
-    vertical-align: bottom;
-}
-
-.social-item>p {
-    clear: both;
-}
