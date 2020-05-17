@@ -1,4 +1,10 @@
+/*
+** Paleta de colores utilizada.
+** https://coolors.co/ffffff-000000-fd6500-fe8900-fe9b00
+*/
+
 body {
+    color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11pt;
 }
@@ -8,6 +14,7 @@ h2 {
 }
 
 h3 {
+    color: #000000;
     font-size: 18pt;
 }
 
@@ -56,23 +63,25 @@ aside, section {
 
 /* Main information */
 .main-content {
-    padding: 6px;
-    background-color: darkmagenta;
+    background-color: #ffffff;
+    padding: 4px;
 }
 
-.main-title {
+/*.main-title {
     background-color: chartreuse;
-}
-
-.subsection-box>h3 {
-    height: 48px;
-    padding-top: 2px;
-    display: table-cell;
-    vertical-align: middle;
-}
+}*/
 
 .subsection-box>div {
     clear: both;
+}
+
+.subsection-box>h3 {
+    color: #fd6500;
+    height: 48px;
+    padding-top: 2px;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .subsection-icon {
@@ -82,9 +91,9 @@ aside, section {
     float: left;
 }
 
-.experience-box {
+/*.experience-box {
     background-color: chocolate;
-}
+}*/
 
 .job-company, .job-title, .school-name, .school-title {
     display: table-cell;
@@ -106,25 +115,25 @@ aside, section {
 .job-text, .school-text {
     font-size: 10pt;
     text-align: justify;
-    clear: both;
 }
 
-.education-box {
+/*.education-box {
     background-color: coral;
-}
+}*/
 
-.courses-certifications-box {
+/*.courses-certifications-box {
     background-color: cyan;
-}
+}*/
 
 /* Sidebar sections */
 .sidebar-content {
-    background-color: darkblue;
-    padding: 6px;
+    background-color: #fd6500;
+    color: #ffffff;
+    padding: 4px;
 }
 
 .main-photo {
-    background-color: aquamarine;
+    background-color: #000000;
     width: 164px;
     height: 164px;
     margin: 18px auto;
@@ -134,30 +143,31 @@ aside, section {
 .contact-box, .skills-box, .social-box {
     padding-left: 12px;
     padding-top: 4px;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
-.contact-box {
+/*.contact-box {
     background-color: darkgreen;
-}
-
-.contact-item {
-    font-size: 10pt;
-    overflow-wrap: break-all;
-    clear: both;
-}
+}*/
 
 .contact-icon {
-    background-color: white;
+    /*background-color: white;*/
     width: 24px;
     height: 24px;
     float: left;
     margin: 10px;
 }
 
-.skills-box{
-    background-color: cornflowerblue;
+.contact-item {
+    font-size: 10pt;
+    overflow-wrap: break-word;
+    clear: both;
+    margin: 10px 0;
 }
+
+/*.skills-box{
+    background-color: cornflowerblue;
+}*/
 
 .skill-item {
     margin-top: 10px;
@@ -176,12 +186,12 @@ aside, section {
 
 .beginner-bar::before, .normal-bar::before, .advanced-bar::before, .expert-bar::before {
     content: "";
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .beginner-bar::after, .normal-bar::after, .advanced-bar::after, .expert-bar::after {
     content: "";
-    background-color: gray;
+    background-color: #000000;
 }
 
 .beginner-bar::before {
@@ -219,9 +229,9 @@ aside, section {
     width: 0;
 }
 
-.social-box {
+/*.social-box {
     background-color: brown;
-}
+}*/
 
 .social-item {
     font-size: 10pt;
@@ -236,6 +246,7 @@ aside, section {
 .social-item>h4 {
     display: table-cell;
     height: 24px;
+    padding-left: 4px;
     vertical-align: bottom;
 }
 
