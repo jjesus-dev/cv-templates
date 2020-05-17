@@ -68,10 +68,6 @@ aside, section {
     padding: 4px;
 }
 
-/*.main-title {
-    background-color: chartreuse;
-}*/
-
 .subsection-box, .subsection-box>div {
     margin-top: 20px;
 }
@@ -96,10 +92,6 @@ aside, section {
     float: left;
 }
 
-/*.experience-box {
-    background-color: chocolate;
-}*/
-
 .job-company, .job-title, .school-name, .school-title {
     display: table-cell;
     vertical-align: middle;
@@ -121,14 +113,6 @@ aside, section {
     font-size: 10pt;
     text-align: justify;
 }
-
-/*.education-box {
-    background-color: coral;
-}*/
-
-/*.courses-certifications-box {
-    background-color: cyan;
-}*/
 
 .courses-certifications-box ul {
     padding: 6px;
@@ -164,10 +148,6 @@ aside, section {
     padding-bottom: 1em;
 }
 
-/*.contact-box {
-    background-color: darkgreen;
-}*/
-
 .contact-item, .social-item {
     margin: 1em 0;
 }
@@ -190,10 +170,6 @@ aside, section {
     overflow-wrap: break-word;
     clear: both;
 }
-
-/*.skills-box{
-    background-color: cornflowerblue;
-}*/
 
 .skill-item {
     margin-top: 10px;
@@ -254,7 +230,3 @@ aside, section {
 .expert-bar::after {
     width: 0;
 }
-
-/*.social-box {
-    background-color: brown;
-}*/
